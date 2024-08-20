@@ -1,0 +1,9 @@
+.nav-items {
+  margin-left: 4.1rem;
+  display: flex;
+  gap: 80px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+}

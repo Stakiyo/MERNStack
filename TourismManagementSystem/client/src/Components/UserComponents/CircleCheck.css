@@ -1,0 +1,14 @@
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+#circle-tick {
+  animation: bounce 2s infinite;
+  transform-origin: center;
+}

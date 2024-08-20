@@ -1,0 +1,11 @@
+.banner-img {
+  background-size: cover;
+  background-position: center;
+  top: 100px;
+  width: 100%;
+  height: 60vh;
+  bottom: 100px;
+  margin-top: 11rem;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,56 @@
+.nav {
+  height: 100%;
+}
+
+.side-nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.side-nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.app-header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 60px;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.avatar {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.nav-background {
+  background-color: #555;
+}
+
+.greet-admin {
+  margin-right: 4rem;
+  margin-top: 0.5rem;
+  color: white;
+}

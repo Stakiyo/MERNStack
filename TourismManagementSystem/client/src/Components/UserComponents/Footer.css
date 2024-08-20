@@ -1,0 +1,15 @@
+.logo li {
+  list-style-type: none;
+}
+
+.logo {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-text {
+  position: absolute;
+  margin-top: 60px;
+  text-align: center;
+}
+

@@ -1,0 +1,102 @@
+.box-container {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  z-index: 1;
+}
+
+.side-nav-close {
+  position: fixed;
+  left: 0px;
+  width: 60px;
+  height: calc(100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(34, 34, 34, 1);
+  border-top: 1px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 0;
+  transition: width 250ms ease-out;
+}
+.side-nav-open {
+  position: fixed;
+  left: 0rem;
+  width: 250px;
+  height: calc(100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: #006666;
+  border-top: 1px solid white;
+  z-index: 0;
+  transition: width 250ms ease-in;
+  border-bottom: 1px solid white;
+}
+
+.side-nav-content {
+  color: white;
+  width: 230px;
+  margin: 10px 10px 0px 10px;
+}
+
+.nav-list {
+  height: 100%;
+  padding: 0%;
+  margin-bottom: 0%;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  display: block;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.nav-list-item i {
+  font-size: 20px;
+  height: 25px;
+  width: 25px;
+  margin: 0px 18px 0px 10px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.nav-list-item a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list-item a {
+  color: white;
+}
+
+.nav-list-item:hover,
+.dropdown-link:hover {
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 10px;
+}
+
+.dropdown li span {
+  display: inline-block;
+  height: 50px;
+}
+
+.dropdown i {
+  margin-right: 3px;
+}
+
+.dropdown-link {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.tour-pack-link {
+  display: inline-block;
+  width: 100%;
+}
+.tour-pack-link .arrow-icon {
+  margin-left: 8px;
+  margin-right: 0;
+}

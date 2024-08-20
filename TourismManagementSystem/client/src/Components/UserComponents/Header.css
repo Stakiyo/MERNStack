@@ -1,0 +1,57 @@
+.admin-login {
+  padding-left: 3rem;
+  padding-top: 10px;
+}
+
+.admin-login a {
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.header-text {
+  margin-left: 30rem;
+  padding-top: 10px;
+}
+
+.nav-signin {
+  padding-top: 7px;
+  margin-left: 20px;
+}
+
+.nav-signup {
+  margin-left: 90px;
+  padding-top: 7px;
+}
+
+.item-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.item-links li a,
+.greet {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav-links {
+  padding-left: 3.5rem;
+}
+
+.nav-pd-bottom {
+  padding-bottom: 0.45rem;
+}
+
+.nav-logout {
+  margin-left: 2rem;
+}
+
+.greet {
+  margin-left: 17rem;
+}
